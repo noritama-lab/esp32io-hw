@@ -6647,16 +6647,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 43.18) (xy 97.79 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ae1d9b0-38de-4914-97fd-30cb9fe5b5a6")
-	)
-	(wire
-		(pts
 			(xy 95.25 35.56) (xy 97.79 35.56)
 		)
 		(stroke
@@ -7037,6 +7027,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 35.56) (xy 97.79 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96fe2c8f-2b1e-4f4a-a81a-f257cc564b0b")
+	)
+	(wire
+		(pts
 			(xy 195.58 83.82) (xy 195.58 86.36)
 		)
 		(stroke
@@ -7287,7 +7287,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 43.18) (xy 120.65 50.8)
+			(xy 120.65 35.56) (xy 120.65 50.8)
 		)
 		(stroke
 			(width 0)
@@ -10275,77 +10275,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 120.65 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "499ab095-b1ef-464d-af2d-b6f491a0c220")
-		(property "Reference" "R2"
-			(at 123.19 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 123.19 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 118.872 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "33c8e011-8954-4dbb-bfd3-13bee82d54e9")
-		)
-		(pin "1"
-			(uuid "8276e61f-09a8-46c1-8f7d-90677a119356")
-		)
-		(instances
-			(project "ESP32-S3-IO-DEVICE"
-				(path "/14e24596-d690-4281-a3cc-ee23062842b6"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 91.44 39.37 0)
 		(unit 1)
@@ -11503,76 +11432,6 @@
 			(project "ESP32-S3-IO-DEVICE"
 				(path "/14e24596-d690-4281-a3cc-ee23062842b6"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 97.79 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a5fccb3-ccae-43aa-afa2-585a02a10349")
-		(property "Reference" "R1"
-			(at 100.33 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 100.33 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 96.012 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "655a566b-33a1-49cd-bbaf-ffc53e61439b")
-		)
-		(pin "1"
-			(uuid "64ac8ef2-eb74-45e6-a8d1-6413100b8276")
-		)
-		(instances
-			(project "ESP32-S3-IO-DEVICE"
-				(path "/14e24596-d690-4281-a3cc-ee23062842b6"
-					(reference "R1")
 					(unit 1)
 				)
 			)
