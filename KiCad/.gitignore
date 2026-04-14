@@ -1,0 +1,31 @@
+# KiCad用 .gitignore
+# バックアップファイル
+*-backups/
+*.bak
+*.bck
+*.save
+*.restore
+
+# 一時ファイル
+*.tmp
+*.swp
+*.swo
+*.lock
+
+# 自動生成キャッシュ・履歴
+fp-info-cache
+.cache/
+
+# KiCadプロジェクト一時ファイル
+*.kicad_prl
+
+# フットプリント・部品データ
+*.kicad_mod
+*.pretty/
+
+# Gerberや製造用データ
+Gerber files/
+
+# その他
+__pycache__/
+*.pyc
